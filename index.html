@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pista 1</title>
   <style>
     * {
@@ -12,35 +12,26 @@
     }
 
     html, body {
-      width: 80%;
       height: 100%;
-    }
-
-    body {
-      background-image: url('pista 1.png'); 
-      background-size: cover;      
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-
+      width: 100%;
       display: flex;
-      align-items: center;
-      justify-content: center;
-
-      max-width: 100vw;
-      overflow-x: hidden;
+      align-items: center;      
+      justify-content: center;  
+      background-color: black;  
     }
 
-    @media (orientation: landscape) {
-      body {
-        background-attachment: scroll; 
-      }
+    img {
+      max-width: 100vw;    
+      max-height: 100vh;  
+      object-fit: contain; 
+      display: block;      
     }
   </style>
 </head>
 <body>
-  <img src="pista 1.png" alt="Pista 1" style="max-width: 90vw; height: auto;">
+  <img src="pista 1.png" alt="Pista 1" />
 </body>
 </html>
+
 
 
